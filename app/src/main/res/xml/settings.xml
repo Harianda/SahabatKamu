@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:key="alarms_category"
+        app:title="Alarms">
+
+        <ListPreference
+            app:defaultValue="10"
+            app:dialogTitle="@string/snooze_duration_title"
+            app:entries="@array/snooze_duration_entries"
+            app:entryValues="@array/snooze_duration_values"
+            app:key="com.aplikasi.sahabatkamu.SNOOZE_DURATION_KEY"
+            app:title="@string/snooze_duration_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="appearance_category"
+        app:title="Appearance">
+
+        <ListPreference
+            app:defaultValue="DEFAULT"
+            app:dialogTitle="@string/dark_mode_title"
+            app:entries="@array/dark_mode_entries"
+            app:entryValues="@array/dark_mode_values"
+            app:key="com.aplikasi.sahabatkamu.DARK_MODE_KEY"
+            app:title="@string/dark_mode_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="SUNDAY"
+            app:dialogTitle="@string/day_of_week_title"
+            app:entries="@array/day_of_week_entries"
+            app:entryValues="@array/day_of_week_values"
+            app:key="com.aplikasi.sahabatkamu.FIRST_DAY_OF_WEEK_KEY"
+            app:title="@string/day_of_week_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreference
+            app:defaultValue="true"
+            app:key="com.aplikasi.sahabatkamu.PM_CONFIRM_KEY"
+            app:title="Show alarm confirmation dialog" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="help_category"
+        app:title="Help">
+
+        <Preference
+            app:key="com.aplikasi.sahabatkamu.FEEDBACK_KEY"
+            app:summary="@string/send_feedback_summary"
+            app:title="@string/send_feedback">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://docs.google.com/forms/d/e/1FAIpQLSfdFS0QS5stpGPyDhMnw_v_yAghSukHg74hKRjUfOYTEgePbg/viewform" />
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

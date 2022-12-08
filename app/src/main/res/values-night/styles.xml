@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/darkModeColorPrimary</item>
+        <item name="colorPrimaryDark">@color/darkModeColorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="titleTextColor">@color/dark_gray</item>
+        <item name="actionBarTheme">@style/ActionBarTheme</item>
+        <item name="buttonStyle">@style/ButtonTheme</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="android:colorBackground">@color/darker_gray</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="ActionBarTheme">
+        <item name="colorControlNormal">@color/dark_gray</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="buttonStyle">@style/Widget.AppCompat.Button</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ButtonTheme" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+
+    <style name="PickerTheme">
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

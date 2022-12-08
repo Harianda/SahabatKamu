@@ -1,0 +1,141 @@
+<resources>
+    <!-- Misc in app strings -->
+    <string name="alarm_time">Alarm</string>
+    <string name="app_name">Sahabat Kamu</string>
+    <string name="calendar_icon_description">Calendar Icon</string>
+    <string name="close">Tutup</string>
+    <string name="confirmation_message">Apakah kamu yakin ingin diingatkan pukul %1$s?</string>
+    <string name="current_ringtone">Suara yang dipilih %1$s</string>
+    <string name="dark_mode_title">Mode Anti Silau</string>
+    <string name="day_of_week_title">Hari pertama di minggu ini</string>
+    <string name="day_friday">Jum</string>
+    <string name="day_monday">Sen</string>
+    <string name="day_saturday">Sab</string>
+    <string name="day_sunday">Min</string>
+    <string name="day_thursday">Kam</string>
+    <string name="day_tuesday">Sel</string>
+    <string name="day_wednesday">Rab</string>
+    <string name="finished_using_phone">Siap</string>
+    <string name="get_up_delay_label">Aku kasih kamu waktu main HP</string>
+    <string name="in_app_complete">Selesai</string>
+    <string name="left_arrow_description">Left Arrow</string>
+    <string name="minutes">menit</string>
+    <string name="month_title_text">%1$s %2$d</string>
+    <string name="next">Selanjutnya</string>
+    <string name="no">Tidak</string>
+    <string name="right_arrow_description">Right Arrow</string>
+    <string name="ringtone_volume_slider_description">Ringtone volume slider</string>
+    <string name="ringtone_volume">Volume Suara</string>
+    <string name="select_ringtone">Pilih Suara</string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="send_feedback_summary">Report technical issues or suggest new features</string>
+    <string name="set_alarm">Pasang Alarm</string>
+    <string name="settings">Pengaturan</string>
+    <string name="snooze">Sebentar Lagi</string>
+    <string name="snooze_duration_title">Berapa lama sebentar lagi buat kamu</string>
+    <string name="stay_in_app_text">Jangan tinggalin dulu aku, kalahkan rekormu sebelumnya</string>
+    <string name="stay_off_time_label">Berapa lama kamu mau berhenti main HP?</string>
+    <string name="stop_alarm">Hentikan Alarm</string>
+    <string name="streaks">Rekor</string>
+    <string name="switch_ringtone">Yah suara ini tidak bisa diputar, pilih yang lain aja ya</string>
+    <string name="time_not_up_text">Aku kasih kamu waktu buat main HP dulu deh sebentar, tapi abis itu kamu harus istirahat dulu ya! Kamu boleh klik tombol dibawah kalo udah selesai main HP.</string>
+    <string name="timer_text">%1$d:%2$s</string>
+    <string name="yes">Ya</string>
+    <string name="zero">0</string>
+
+    <!-- Entries listed when invoking the dark mode preference -->
+    <string-array name="dark_mode_entries">
+        <item>System Default</item>
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+
+    <!-- Values retrieved when selecting the matching dark_mode_entries above -->
+    <string-array name="dark_mode_values" translatable="false">
+        <item>DEFAULT</item>
+        <item>ON</item>
+        <item>OFF</item>
+    </string-array>
+
+    <!-- Entries listed when invoking the snooze duration preference -->
+    <string-array name="snooze_duration_entries">
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>3 minutes</item>
+        <item>4 minutes</item>
+        <item>5 minutes</item>
+        <item>6 minutes</item>
+        <item>7 minutes</item>
+        <item>8 minutes</item>
+        <item>9 minutes</item>
+        <item>10 minutes</item>
+        <item>11 minutes</item>
+        <item>12 minutes</item>
+        <item>13 minutes</item>
+        <item>14 minutes</item>
+        <item>15 minutes</item>
+        <item>16 minutes</item>
+        <item>17 minutes</item>
+        <item>18 minutes</item>
+        <item>19 minutes</item>
+        <item>20 minutes</item>
+        <item>21 minutes</item>
+        <item>22 minutes</item>
+        <item>23 minutes</item>
+        <item>24 minutes</item>
+        <item>25 minutes</item>
+        <item>26 minutes</item>
+        <item>27 minutes</item>
+        <item>28 minutes</item>
+        <item>29 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+
+    <!-- Values retrieved when selecting the matching snooze_duration_entries above -->
+    <string-array name="snooze_duration_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+
+    <!-- Entries listed when invoking the first day of week preference -->
+    <string-array name="day_of_week_entries">
+        <item>Minggu</item>
+        <item>Senin</item>
+        <item>Sabtu</item>
+    </string-array>
+
+    <!-- Values retrieved when selecting the matching day_of_week_entries above -->
+    <string-array name="day_of_week_values" translatable="false">
+        <item>MINGGU</item>
+        <item>SENIN</item>
+        <item>SABTU</item>
+    </string-array>
+</resources>
